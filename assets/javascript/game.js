@@ -1,23 +1,33 @@
 
 var winCount = 0;
 var loseCount = 0;
-var display =[];
+var display = [];
 var playerGuess = [];
 var guessLeft = 9;
 
 var pokemonList = ["pokemon"];
 
+var computerGuess = pokemonList[Math.floor(Math.random() * pokemonList.length)];
+
+//loop that prints out lines equal the to the number of letters in the word//
+for (var i = 0; i < computerGuess.length; i++) {
+    display.push("_");
+};
+
 
 document.onkeyup = function (event) {
     var userGuess = event.key;
-    var computerGuess = pokemonList[Math.floor(Math.random() * pokemonList.length)];
-    //loop that prints out lines equal the to the number of letters in the word//
 
-    // for (var i = 0; i < computerGuess.length; i++) {
-    //     display.push("_");
-    // };
-    // document.getElementById("poke").innerHTML = display;
-    
+//function that replaces the letter if its correct//    
+    function myfunction() {
+        for (var i = 0; i < computerGuess.length; i++) {
+            if (userGuess === computerGuess[i]) {
+                display[i] = userGuess;
+            };
+        };
+        document.getElementById("poke").innerHTML = display;
+    };
+    myfunction();
 
     //split the string into each letter then add into array?//
 
@@ -51,6 +61,9 @@ document.onkeyup = function (event) {
     document.getElementById("title").innerHTML = "Welcome To The Psychic Game!";
     document.getElementById("guess").innerHTML = "Guess what the letter I'm thinking of";
     document.getElementById("wins").innerHTML = "Wins: " + winCount;
+    document.getElementById("loses").innerHTML = "Loses: " + loseCount;
     document.getElementById("guessleft").innerHTML = "Guesses Left: " + guessLeft;
     document.getElementById("lettersleft").innerHTML = "Your guess so far: " + playerGuess;
 };
+
+
