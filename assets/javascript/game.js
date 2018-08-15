@@ -49,17 +49,26 @@ function myHint() {
 //Activates the myHint function to start the game with a hint//
 myHint();
 
+//Displays the hint in the HTML//
+document.getElementById("hints").innerHTML = "Hints: " + compGuessTypes;
+
 //A function that takes the images from the object from the object that was selected in the function myRandom//
 function myPic() {
     compGuessSil = computerGuess.imgSil;
     compGuessPic = computerGuess.imgPok;
 };
 
+//Activates the myPic function to start game with a image//
 myPic();
 
+//Creates a element called imgP that shows the images in the HTML//
 var imgP = document.createElement("img");
 imgP.src = compGuessSil;
 document.body.appendChild(imgP);
+
+
+
+
 
 //Starts the game with a keyup//
 document.onkeyup = function (event) {
@@ -82,6 +91,7 @@ document.onkeyup = function (event) {
     //Once a new object is selected a new hint will appear//
     myHint();
 
+    //Shows the silhouette image of the chosen pokemon//
     myPic();
     imgP.src = compGuessSil;
     document.body.appendChild(imgP);
@@ -94,7 +104,8 @@ document.onkeyup = function (event) {
     if (display.includes("_")) {
         //If there is any "_" nothing happens//
     }
-    //If there isn't any "_" then the player wins the game. The answer is revealed, the winCount goes up by 1, the guessLeft and playerGuess is reset. Also the word is re-randomized and displayed with "_"//
+    //If there isn't any "_" then the player wins the game. The answer is revealed, the winCount goes up by 1, the guessLeft and playerGuess is reset. 
+    //Also the word is re-randomized and displayed with "_". The image of the pokemon is revealed.//
     else {
         document.getElementById("results").innerHTML = compGuessName;
         winCount += 1;
@@ -117,7 +128,8 @@ document.onkeyup = function (event) {
         playerGuess.push(userGuess);
     };
 
-    //This If statment checks if the guessLeft is equal to 0. If so then the answer is revealed, the loseCount goes up by 1, the guessLeft and playerGuess is reset. Also the word is re-randomized and displayed with "_"//
+    //This If statment checks if the guessLeft is equal to 0. If so then the answer is revealed, the loseCount goes up by 1, the guessLeft and playerGuess is reset. 
+    //Also the word is re-randomized and displayed with "_". The image of the pokemon is revealed.//
     if (guessLeft === 0) {
         document.getElementById("results").innerHTML = compGuessName;
         loseCount += 1;
