@@ -5,7 +5,7 @@ var pokeList = [
         'Type 1': 'Grass',
         'Type 2': 'Poison',
         imgSil: 'assets/images/silhouettes/abra.jpg',
-        imgPok: 'assets/images/pokemon/abra.jpg'
+        imgPok: 'assets/images/pokemon/abra.png'
     },
     // {
     //     Ndex: '#002',
@@ -18,12 +18,16 @@ var pokeList = [
         pokeName: 'Venusaur',
         'Type 1': 'Grass',
         'Type 2': 'Poison',
+        imgSil: 'assets/images/silhouettes/venusaur.jpg',
+        imgPok: 'assets/images/pokemon/venusaur.png'
     },
     {
         Ndex: '#004',
         pokeName: 'Charmander',
         'Type 1': 'Fire',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/charmander.jpg',
+        imgPok: 'assets/images/pokemon/charmander.png'
     },
     // {
     //     Ndex: '#005',
@@ -36,24 +40,32 @@ var pokeList = [
         pokeName: 'Charizard',
         'Type 1': 'Fire',
         'Type 2': 'Flying',
+        imgSil: 'assets/images/silhouettes/charizard.jpg',
+        imgPok: 'assets/images/pokemon/charizard.png'
     },
     {
         Ndex: '#007',
         pokeName: 'Squirtle',
         'Type 1': 'Water',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/squirtle.jpg',
+        imgPok: 'assets/images/pokemon/squirtle.png'  
     },
     {
         Ndex: '#008',
         pokeName: 'Wartortle',
         'Type 1': 'Water',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/wartortle.jpg',
+        imgPok: 'assets/images/pokemon/wartortle.png'
     },
     {
         Ndex: '#009',
         pokeName: 'Blastoise',
         'Type 1': 'Water',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/blastoise.jpg',
+        imgPok: 'assets/images/pokemon/blatoise.png'
     },
     // {
     //     Ndex: '#010',
@@ -72,6 +84,8 @@ var pokeList = [
         pokeName: 'Butterfree',
         'Type 1': 'Bug',
         'Type 2': 'Flying',
+        imgSil: 'assets/images/silhouettes/butterfree.jpg',
+        imgPok: 'assets/images/pokemon/butterfree.png'
     },
     // {
     //     Ndex: '#013',
@@ -96,6 +110,8 @@ var pokeList = [
         pokeName: 'Pidgey',
         'Type 1': 'Normal',
         'Type 2': 'Flying',
+        imgSil: 'assets/images/silhouettes/pidgey.jpg',
+        imgPok: 'assets/images/pokemon/pidgey.png'
     },
     // {
     //     Ndex: '#017',
@@ -114,12 +130,16 @@ var pokeList = [
         pokeName: 'Rattata',
         'Type 1': 'Normal',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/rattata.jpg',
+        imgPok: 'assets/images/pokemon/rattata.png'
     },
     {
         Ndex: '#020',
         pokeName: 'Raticate',
         'Type 1': 'Normal',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/raticate.jpg',
+        imgPok: 'assets/images/pokemon/raticate.png'
     },
     // {
     //     Ndex: '#021',
@@ -138,6 +158,8 @@ var pokeList = [
         pokeName: 'Ekans',
         'Type 1': 'Poison',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/ekans.jpg',
+        imgPok: 'assets/images/pokemon/ekans.png'
     },
     // {
     //     Ndex: '#024',
@@ -150,6 +172,8 @@ var pokeList = [
         pokeName: 'Pikachu',
         'Type 1': 'Electric',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/pikachu.jpg',
+        imgPok: 'assets/images/pokemon/pikachu.png'
     },
     // {
     //     Ndex: '#026',
@@ -168,6 +192,8 @@ var pokeList = [
         pokeName: 'Sandslash',
         'Type 1': 'Ground',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/sandslash.jpg',
+        imgPok: 'assets/images/pokemon/sandslash.png'
     },
     // {
     //     Ndex: '#029',
@@ -180,6 +206,8 @@ var pokeList = [
         pokeName: 'Nidorina',
         'Type 1': 'Poison',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/nidorina.jpg',
+        imgPok: 'assets/images/pokemon/nidorina.png'
     },
     // {
     //     Ndex: '#031',
@@ -222,12 +250,16 @@ var pokeList = [
         pokeName: 'Vulpix',
         'Type 1': 'Fire',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/vulpix.jpg',
+        imgPok: 'assets/images/pokemon/vulpix.png'
     },
     {
         Ndex: '#038',
         pokeName: 'Ninetales',
         'Type 1': 'Fire',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/ninetales.jpg',
+        imgPok: 'assets/images/pokemon/ninetales.png'
     },
     // {
     //     Ndex: '#039',
@@ -246,12 +278,16 @@ var pokeList = [
         pokeName: 'Zubat',
         'Type 1': 'Poison',
         'Type 2': 'Flying',
+        imgSil: 'assets/images/silhouettes/zubat.jpg',
+        imgPok: 'assets/images/pokemon/zubat.png'
     },
     {
         Ndex: '#042',
         pokeName: 'Golbat',
         'Type 1': 'Poison',
         'Type 2': 'Flying',
+        imgSil: 'assets/images/silhouettes/golbat.jpg',
+        imgPok: 'assets/images/pokemon/golbat.png'
     },
     // {
     //     Ndex: '#043',
@@ -276,6 +312,8 @@ var pokeList = [
         pokeName: 'Paras',
         'Type 1': 'Bug',
         'Type 2': 'Grass',
+        imgSil: 'assets/images/silhouettes/paras.jpg',
+        imgPok: 'assets/images/pokemon/paras.png'
     },
     // {
     //     Ndex: '#047',
@@ -288,6 +326,8 @@ var pokeList = [
         pokeName: 'Venonat',
         'Type 1': 'Bug',
         'Type 2': 'Poison',
+        imgSil: 'assets/images/silhouettes/venonat.jpg',
+        imgPok: 'assets/images/pokemon/venonat.png'
     },
     // {
     //     Ndex: '#049',
@@ -354,6 +394,8 @@ var pokeList = [
         pokeName: 'Arcanine',
         'Type 1': 'Fire',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/arcanine.jpg',
+        imgPok: 'assets/images/pokemon/arcanine.png'
     },
     // {
     //     Ndex: '#060',
@@ -366,6 +408,8 @@ var pokeList = [
         pokeName: 'Poliwhirl',
         'Type 1': 'Water',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/poliwhirl.jpg',
+        imgPok: 'assets/images/pokemon/poliwhirl.png'
     },
     // {
     //     Ndex: '#062',
@@ -378,6 +422,8 @@ var pokeList = [
         pokeName: 'Abra',
         'Type 1': 'Psychic',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/abra.jpg',
+        imgPok: 'assets/images/pokemon/abra.png'
     },
     // {
     //     Ndex: '#064',
@@ -438,6 +484,8 @@ var pokeList = [
         pokeName: 'Tentacruel',
         'Type 1': 'Water',
         'Type 2': 'Poison',
+        imgSil: 'assets/images/silhouettes/tentacruel.jpg',
+        imgPok: 'assets/images/pokemon/tentacruel.png'
     },
     // {
     //     Ndex: '#074',
@@ -450,12 +498,16 @@ var pokeList = [
         pokeName: 'Graveler',
         'Type 1': 'Rock',
         'Type 2': 'Ground',
+        imgSil: 'assets/images/silhouettes/graveler.jpg',
+        imgPok: 'assets/images/pokemon/graveler.png'
     },
     {
         Ndex: '#076',
         pokeName: 'Golem',
         'Type 1': 'Rock',
         'Type 2': 'Ground',
+        imgSil: 'assets/images/silhouettes/golem.jpg',
+        imgPok: 'assets/images/pokemon/golem.png'
     },
     // {
     //     Ndex: '#077',
@@ -474,12 +526,16 @@ var pokeList = [
         pokeName: 'Slowpoke',
         'Type 1': 'Water',
         'Type 2': 'Psychic',
+        imgSil: 'assets/images/silhouettes/slowpoke.jpg',
+        imgPok: 'assets/images/pokemon/slowpoke.png'
     },
     {
         Ndex: '#080',
         pokeName: 'Slowbro',
         'Type 1': 'Water',
         'Type 2': 'Psychic',
+        imgSil: 'assets/images/silhouettes/slowbro.jpg',
+        imgPok: 'assets/images/pokemon/slowbro.png'
     },
     // {
     //     Ndex: '#081',
@@ -492,6 +548,8 @@ var pokeList = [
         pokeName: 'Magneton',
         'Type 1': 'Electric',
         'Type 2': 'Steel',
+        imgSil: 'assets/images/silhouettes/magneton.jpg',
+        imgPok: 'assets/images/pokemon/magneton.png'
     },
     // {
     //     Ndex: '#083',
@@ -546,6 +604,8 @@ var pokeList = [
         pokeName: 'Cloyster',
         'Type 1': 'Water',
         'Type 2': 'Ice',
+        imgSil: 'assets/images/silhouettes/cloyster.jpg',
+        imgPok: 'assets/images/pokemon/cloyster.png'
     },
     // {
     //     Ndex: '#092',
@@ -570,12 +630,16 @@ var pokeList = [
         pokeName: 'Onix',
         'Type 1': 'Rock',
         'Type 2': 'Ground',
+        imgSil: 'assets/images/silhouettes/onix.jpg',
+        imgPok: 'assets/images/pokemon/onix.png'
     },
     {
         Ndex: '#096',
         pokeName: 'Drowzee',
         'Type 1': 'Psychic',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/drowzee.jpg',
+        imgPok: 'assets/images/pokemon/drowzee.png'
     },
     // {
     //     Ndex: '#097',
@@ -594,6 +658,8 @@ var pokeList = [
         pokeName: 'Kingler',
         'Type 1': 'Water',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/kingler.jpg',
+        imgPok: 'assets/images/pokemon/kingler.png'
     },
     // {
     //     Ndex: '#100',
@@ -612,6 +678,8 @@ var pokeList = [
         pokeName: 'Exeggcute',
         'Type 1': 'Grass',
         'Type 2': 'Psychic',
+        imgSil: 'assets/images/silhouettes/exeggcute.jpg',
+        imgPok: 'assets/images/pokemon/exeggcute.png'
     },
     // {
     //     Ndex: '#103',
@@ -624,13 +692,15 @@ var pokeList = [
         pokeName: 'Cubone',
         'Type 1': 'Ground',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/cubone.jpg',
+        imgPok: 'assets/images/pokemon/cubone.png'
     },
-    {
-        Ndex: '#105',
-        pokeName: 'Marowak',
-        'Type 1': 'Ground',
-        'Type 2': '',
-    },
+    // {
+    //     Ndex: '#105',
+    //     pokeName: 'Marowak',
+    //     'Type 1': 'Ground',
+    //     'Type 2': '',
+    // },
     // {
     //     Ndex: '#106',
     //     pokeName: 'Hitmonlee',
@@ -648,12 +718,16 @@ var pokeList = [
         pokeName: 'Lickitung',
         'Type 1': 'Normal',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/lickitung.jpg',
+        imgPok: 'assets/images/pokemon/lickitung.png'
     },
     {
         Ndex: '#109',
         pokeName: 'Koffing',
         'Type 1': 'Poison',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/koffing.jpg',
+        imgPok: 'assets/images/pokemon/koffing.png'
     },
     // {
     //     Ndex: '#110',
@@ -672,6 +746,8 @@ var pokeList = [
         pokeName: 'Rhydon',
         'Type 1': 'Ground',
         'Type 2': 'Rock',
+        imgSil: 'assets/images/silhouettes/rhydon.jpg',
+        imgPok: 'assets/images/pokemon/rhydon.png'
     },
     // {
     //     Ndex: '#113',
@@ -708,6 +784,8 @@ var pokeList = [
         pokeName: 'Goldeen',
         'Type 1': 'Water',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/goldeen.jpg',
+        imgPok: 'assets/images/pokemon/goldeen.png'
     },
     // {
     //     Ndex: '#119',
@@ -744,6 +822,8 @@ var pokeList = [
         pokeName: 'Jynx',
         'Type 1': 'Ice',
         'Type 2': 'Psychic',
+        imgSil: 'assets/images/silhouettes/jynx.jpg',
+        imgPok: 'assets/images/pokemon/jynx.png'
     },
     // {
     //     Ndex: '#125',
@@ -763,23 +843,27 @@ var pokeList = [
     //     'Type 1': 'Bug',
     //     'Type 2': '',
     // },
-    {
-        Ndex: '#128',
-        pokeName: 'Tauros',
-        'Type 1': 'Normal',
-        'Type 2': '',
-    },
+    // {
+    //     Ndex: '#128',
+    //     pokeName: 'Tauros',
+    //     'Type 1': 'Normal',
+    //     'Type 2': '',
+    // },
     {
         Ndex: '#129',
         pokeName: 'Magikarp',
         'Type 1': 'Water',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/magikarp.jpg',
+        imgPok: 'assets/images/pokemon/magikarp.png'
     },
     {
         Ndex: '#130',
         pokeName: 'Gyarados',
         'Type 1': 'Water',
         'Type 2': 'Flying',
+        imgSil: 'assets/images/silhouettes/gyarados.jpg',
+        imgPok: 'assets/images/pokemon/gyarados.png'
     },
     // {
     //     Ndex: '#131',
@@ -792,6 +876,8 @@ var pokeList = [
         pokeName: 'Ditto',
         'Type 1': 'Normal',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/ditto.jpg',
+        imgPok: 'assets/images/pokemon/ditto.png'
     },
     // {
     //     Ndex: '#133',
@@ -804,6 +890,8 @@ var pokeList = [
         pokeName: 'Vaporeon',
         'Type 1': 'Water',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/vaporeon.jpg',
+        imgPok: 'assets/images/pokemon/vaporeon.png'
     },
     // {
     //     Ndex: '#135',
@@ -816,6 +904,8 @@ var pokeList = [
         pokeName: 'Flareon',
         'Type 1': 'Fire',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/flareon.jpg',
+        imgPok: 'assets/images/pokemon/flareon.png'
     },
     // {
     //     Ndex: '#137',
@@ -834,6 +924,8 @@ var pokeList = [
         pokeName: 'Omastar',
         'Type 1': 'Rock',
         'Type 2': 'Water',
+        imgSil: 'assets/images/silhouettes/omastar.jpg',
+        imgPok: 'assets/images/pokemon/omastar.png'
     },
     // {
     //     Ndex: '#140',
@@ -846,6 +938,8 @@ var pokeList = [
         pokeName: 'Kabutops',
         'Type 1': 'Rock',
         'Type 2': 'Water',
+        imgSil: 'assets/images/silhouettes/kabutops.jpg',
+        imgPok: 'assets/images/pokemon/kabutops.png'
     },
     // {
     //     Ndex: '#142',
@@ -858,12 +952,16 @@ var pokeList = [
         pokeName: 'Snorlax',
         'Type 1': 'Normal',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/snorlax.jpg',
+        imgPok: 'assets/images/pokemon/snorlax.png'
     },
     {
         Ndex: '#144',
         pokeName: 'Articuno',
         'Type 1': 'Ice',
         'Type 2': 'Flying',
+        imgSil: 'assets/images/silhouettes/articuno.jpg',
+        imgPok: 'assets/images/pokemon/articuno.png'
     },
     // {
     //     Ndex: '#145',
@@ -882,6 +980,8 @@ var pokeList = [
         pokeName: 'Dratini',
         'Type 1': 'Dragon',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/dratini.jpg',
+        imgPok: 'assets/images/pokemon/dratini.png'
     },
     // {
     //     Ndex: '#148',
@@ -906,6 +1006,8 @@ var pokeList = [
         pokeName: 'Mew',
         'Type 1': 'Psychic',
         'Type 2': '',
+        imgSil: 'assets/images/silhouettes/mew.jpg',
+        imgPok: 'assets/images/pokemon/mew.png'
     }
 ];
 

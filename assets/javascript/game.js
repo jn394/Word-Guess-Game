@@ -10,15 +10,14 @@ var playerGuess = [];
 var guessLeft = 20;
 
 
-// var img = new Image();
-// img.src = "assets/javascript/jinx.png";
 
-// document.body.appendChild(img);
 
 //Empty variables for my functions to push ojects from the array pokeList into// 
 var computerGuess;
 var compGuessName;
 var compGuessTypes;
+var compGuessSil;
+var compGuessPic;
 
 //A function that randomly picks a object from the array pokeList//
 function myRandom() {
@@ -50,6 +49,17 @@ function myHint() {
 //Activates the myHint function to start the game with a hint//
 myHint();
 
+//A function that takes the images from the object from the object that was selected in the function myRandom//
+function myPic() {
+    compGuessSil = computerGuess.imgSil;
+    compGuessPic = computerGuess.imgPok;
+};
+
+myPic();
+
+var imgP = document.createElement("img");
+imgP.src = compGuessSil;
+document.body.appendChild(imgP);
 
 //Starts the game with a keyup//
 document.onkeyup = function (event) {
@@ -72,6 +82,10 @@ document.onkeyup = function (event) {
     //Once a new object is selected a new hint will appear//
     myHint();
 
+    myPic();
+    imgP.src = compGuessSil;
+    document.body.appendChild(imgP);
+
     //Displays the hint in the HTML//
     document.getElementById("hints").innerHTML = "Hints: " + compGuessTypes;
 
@@ -89,6 +103,8 @@ document.onkeyup = function (event) {
         display = [];
         myRandom();
         myDisplay();
+        imgP.src = compGuessPic;
+        document.body.appendChild(imgP);
     };
 
     //This If/Else statment checks if the current userGuess was in the playerGuess//
@@ -110,6 +126,8 @@ document.onkeyup = function (event) {
         display = [];
         myRandom();
         myDisplay();
+        imgP.src = compGuessPic;
+        document.body.appendChild(imgP);
     };
 
     //This displays all the values//
