@@ -9,8 +9,10 @@ var playerGuess = [];
 //The number of guesses left//
 var guessLeft = 21;
 
-
-
+//This displays the current Wins, Loses, Guesses Left, and Players Guesses//
+document.getElementById("wins").innerHTML = winCount;
+document.getElementById("loses").innerHTML = loseCount;
+document.getElementById("guessleft").innerHTML = guessLeft;
 
 //Empty variables for my functions to push ojects from the array pokeList into// 
 var computerGuess;
@@ -99,6 +101,16 @@ document.onkeyup = function (event) {
     //Displays the hint in the HTML//
     document.getElementById("hints").innerHTML = compGuessTypes;
 
+    //This If/Else statment checks if the current userGuess was in the playerGuess//
+    if (playerGuess.includes(userGuess)) {
+        //If it is in playerGuess nothing happens//
+    }
+    //If not then the player guessed wrong and guessLeft -1 and the word that was guessed is pushed into the playerGuess array//
+    else {
+        guessLeft -= 1;
+        playerGuess.push(userGuess);
+    };
+
     //This If/Else statment checks if there is still any "_" left in the array "display"//
     //I might need?(computerGuess.includes(userGuess)//
     if (display.includes("_")) {
@@ -118,22 +130,12 @@ document.onkeyup = function (event) {
         document.body.appendChild(imgP);
     };
 
-    //This If/Else statment checks if the current userGuess was in the playerGuess//
-    if (playerGuess.includes(userGuess)) {
-        //If it is in playerGuess nothing happens//
-    }
-    //If not then the player guessed wrong and guessLeft -1 and the word that was guessed is pushed into the playerGuess array//
-    else {
-        guessLeft -= 1;
-        playerGuess.push(userGuess);
-    };
-
     //This If statment checks if the guessLeft is equal to 0. If so then the answer is revealed, the loseCount goes up by 1, the guessLeft and playerGuess is reset. 
     //Also the word is re-randomized and displayed with "_". The image of the pokemon is revealed.//
     if (guessLeft === 0) {
         document.getElementById("results").innerHTML = compGuessName;
         loseCount += 1;
-        guessLeft = 20;
+        guessLeft = 21;
         playerGuess = [];
         display = [];
         myRandom();
@@ -142,7 +144,7 @@ document.onkeyup = function (event) {
         document.body.appendChild(imgP);
     };
 
-    //This displays all the values//
+    //This displays the current Wins, Loses, Guesses Left, and Players Guesses//
     document.getElementById("wins").innerHTML = winCount;
     document.getElementById("loses").innerHTML = loseCount;
     document.getElementById("guessleft").innerHTML = guessLeft;
