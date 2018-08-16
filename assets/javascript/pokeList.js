@@ -65,7 +65,7 @@ var pokeList = [
         'Type 1': 'Water',
         'Type 2': '',
         imgSil: 'assets/images/silhouettes/blastoise.jpg',
-        imgPok: 'assets/images/pokemon/blatoise.png'
+        imgPok: 'assets/images/pokemon/blastoise.png'
     },
     // {
     //     Ndex: '#010',

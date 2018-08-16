@@ -7,7 +7,7 @@ var display = [];
 //The letters the player guessed//
 var playerGuess = [];
 //The number of guesses left//
-var guessLeft = 20;
+var guessLeft = 21;
 
 
 
@@ -28,7 +28,7 @@ function myRandom() {
 
 //Activates the myRandom function to start the game with a random pokemon selected//
 myRandom();
-console.log(pokeList.length);
+
 //A function that pushes lines into an array equal to the number of letters in the word//
 function myDisplay() {
     for (var i = 0; i < compGuessName.length; i++) {
@@ -43,14 +43,14 @@ myDisplay();
 
 //A function that pulls the properties "Type 1" & "Type 2" from the object that was selected in the function myRandom//
 function myHint() {
-    compGuessTypes = computerGuess["Type 1"] + computerGuess["Type 2"];
+    compGuessTypes = computerGuess["Type 1"] + ", " + computerGuess["Type 2"];
 };
 
 //Activates the myHint function to start the game with a hint//
 myHint();
 
 //Displays the hint in the HTML//
-document.getElementById("hints").innerHTML = "Hints: " + compGuessTypes;
+document.getElementById("hints").innerHTML = compGuessTypes;
 
 //A function that takes the images from the object from the object that was selected in the function myRandom//
 function myPic() {
@@ -64,10 +64,10 @@ myPic();
 //Creates a element called imgP that shows the images in the HTML//
 var imgP = document.createElement("img");
 imgP.src = compGuessSil;
+imgP.style.position = "absolute";
+imgP.style.left = "305px";
+imgP.style.top = "332px";
 document.body.appendChild(imgP);
-
-
-
 
 
 //Starts the game with a keyup//
@@ -97,7 +97,7 @@ document.onkeyup = function (event) {
     document.body.appendChild(imgP);
 
     //Displays the hint in the HTML//
-    document.getElementById("hints").innerHTML = "Hints: " + compGuessTypes;
+    document.getElementById("hints").innerHTML = compGuessTypes;
 
     //This If/Else statment checks if there is still any "_" left in the array "display"//
     //I might need?(computerGuess.includes(userGuess)//
@@ -109,7 +109,7 @@ document.onkeyup = function (event) {
     else {
         document.getElementById("results").innerHTML = compGuessName;
         winCount += 1;
-        guessLeft = 20;
+        guessLeft = 21;
         playerGuess = [];
         display = [];
         myRandom();

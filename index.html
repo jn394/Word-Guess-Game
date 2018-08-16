@@ -1,31 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/reset.css">
+    <title>WHO'S THAT POKEMON!!!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
+
+
 <body>
-    <h1>Pokemon Hangman!</h1>
-    <p>Press any key to start!</p>
 
-    <h1>Who's That Pokemon!</h1>
-    <p>Guess what the Pokemon I'm thinking of</p>
-    <p id="poke"></p>
-    <p id="hints"></p>
-    <img id="pics"></img>
-    <p>Wins: <span id="wins"></span></p>
-    <p>Loses: <span id="loses"></span></p>
-    <p>Guesses Left: <span id="guessleft"></span></p>
-    <p>Your guess so far: <span id="lettersleft"></span></p>
-    <p>The answer was:  <span id="results"></span></p>      
+    <nav class="navbar navbar-light justify-content-center custom_style border-bottom">
+        <span class="navbar-brand mb-0 h1">
+            <h1>Who's That Pokemon!</h1>
+        </span>
+    </nav>
 
-<script src="assets/javascript/pokeList.js"></script>
-<!--I had to put it on the bottom show my <p id="poke"> can work-->
-<script src="assets/javascript/game.js"></script>
+    <div class="container">
+
+        <div class="row p-3 rounded mt-5 justify-content-center border border-3 border-dark" style="background-color: rgba(255, 255, 255, 0.3)">
+            <h2>Press any key to start!</h2>
+        </div>
+
+        <div class="row pt-3 rounded justify-content-center px-0">
+
+            <div class="card text-center mr-2 custom_style" style="width: 49%">
+                <div class="card-header">
+                    <h5>Guess the Pokemon:</h5>
+                </div>
+                <div class="card-body">
+                    <img id="pics" class="pokePic fix-top" style="background-color: white"></img>
+                    <p class="card-text mt-3">Type(s):
+                        <span id="hints"></span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="card text-center ml-2 custom_style" style="width: 49%;">
+                    <div class="card-header">
+                        <h5>What's your guess?</h5>
+                    </div>
+                    <div class="card-body">
+                <p id="poke"></p>
+                <p>Wins:
+                    <span id="wins"></span>
+                </p>
+                <p>Loses:
+                    <span id="loses"></span>
+                </p>
+                <p>Guesses Left:
+                    <span id="guessleft"></span>
+                </p>
+                <p>Your guess so far:
+                    <span id="lettersleft"></span>
+                </p>
+                <p>The answer was:
+                    <span id="results"></span>
+                </p>
+                    </div>
+                </div>
+
+        </div>
+
+    </div>
+
 </body>
+
+<!--I had to put link on the bottom show my <p id="poke"> can work-->
+<script src="assets/javascript/pokeList.js"></script>
+<!--I had to put link on the bottom show my <p id="poke"> can work-->
+<script src="assets/javascript/game.js"></script>
+
 </html>

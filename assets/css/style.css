@@ -13,3 +13,51 @@ h2 {
 p {
     padding: 10px;
 }
+
+body {
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;   
+    font-family: 'Press Start 2P', cursive;
+}
+
+.pokePic {
+    height: 300px;
+    width: 350px;
+}
+
+img {
+    height: 300px;
+    width: 350px;
+    border: solid 2px black;
+    border-radius: 5px;
+    position: relative;
+    top: 0;
+}
+
+.border-3 {
+    border-width:2px !important;
+}
+
+.border-bottom {
+    border-bottom: solid    2px !important;
+}
+
+.custom_style {
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+}
+
+.card {
+    border: solid 2px black;   
+}
+.card-header {
+    padding-top: 20px;
+    background: rgba(74, 174, 255, .5);
+    border-bottom: solid 2px black;
+}
+
+.card-body {
+    background: rgba(74, 174, 255, 0.3);
+}
