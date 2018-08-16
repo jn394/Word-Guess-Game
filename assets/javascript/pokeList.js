@@ -299,7 +299,7 @@ var pokeList = [
     //     'Type 1': 'Grass',
     //     'Type 2': 'Poison',
     // },
-    // {
+    {
         Ndex: '#044',
         pokeName: 'Gloom',
         'Type 1': 'Grass',
