@@ -64,12 +64,8 @@ function myPic() {
 myPic();
 
 //Creates a element called imgP that shows the images in the HTML//
-var imgP = document.createElement("img");
+var imgP = document.getElementById("pics");
 imgP.src = compGuessSil;
-imgP.style.position = "absolute";
-imgP.style.left = "305px";
-imgP.style.top = "332px";
-document.body.appendChild(imgP);
 
 
 //Starts the game with a keyup//
@@ -96,7 +92,6 @@ document.onkeyup = function (event) {
     //Shows the silhouette image of the chosen pokemon//
     myPic();
     imgP.src = compGuessSil;
-    document.body.appendChild(imgP);
 
     //Displays the hint in the HTML//
     document.getElementById("hints").innerHTML = compGuessTypes;
@@ -127,7 +122,6 @@ document.onkeyup = function (event) {
         myRandom();
         myDisplay();
         imgP.src = compGuessPic;
-        document.body.appendChild(imgP);
     };
 
     //This If statment checks if the guessLeft is equal to 0. If so then the answer is revealed, the loseCount goes up by 1, the guessLeft and playerGuess is reset. 
@@ -141,7 +135,6 @@ document.onkeyup = function (event) {
         myRandom();
         myDisplay();
         imgP.src = compGuessPic;
-        document.body.appendChild(imgP);
     };
 
     //This displays the current Wins, Loses, Guesses Left, and Players Guesses//
