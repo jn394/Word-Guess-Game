@@ -4,8 +4,8 @@ var pokeList = [
         pokeName: 'Bulbasaur',
         'Type 1': 'Grass',
         'Type 2': 'Poison',
-        imgSil: 'assets/images/silhouettes/abra.jpg',
-        imgPok: 'assets/images/pokemon/abra.png'
+        imgSil: 'assets/images/silhouettes/bulbsaur.jpg',
+        imgPok: 'assets/images/pokemon/bulbsaur.png'
     },
     // {
     //     Ndex: '#002',
@@ -87,12 +87,14 @@ var pokeList = [
         imgSil: 'assets/images/silhouettes/butterfree.jpg',
         imgPok: 'assets/images/pokemon/butterfree.png'
     },
-    // {
-    //     Ndex: '#013',
-    //     pokeName: 'Weedle',
-    //     'Type 1': 'Bug',
-    //     'Type 2': 'Poison',
-    // },
+    {
+        Ndex: '#013',
+        pokeName: 'Weedle',
+        'Type 1': 'Bug',
+        'Type 2': 'Poison',
+        imgSil: 'assets/images/silhouettes/weedle.jpg',
+        imgPok: 'assets/images/pokemon/weedle.png'
+    },
     // {
     //     Ndex: '#014',
     //     pokeName: 'Kakuna',
@@ -119,12 +121,14 @@ var pokeList = [
     //     'Type 1': 'Normal',
     //     'Type 2': 'Flying',
     // },
-    // {
-    //     Ndex: '#018',
-    //     pokeName: 'Pidgeot',
-    //     'Type 1': 'Normal',
-    //     'Type 2': 'Flying',
-    // },
+    {
+        Ndex: '#018',
+        pokeName: 'Pidgeot',
+        'Type 1': 'Normal',
+        'Type 2': 'Flying',
+        imgSil: 'assets/images/silhouettes/pidgeot.jpg',
+        imgPok: 'assets/images/pokemon/pidgeot.png'
+    },
     {
         Ndex: '#019',
         pokeName: 'Rattata',
@@ -296,11 +300,13 @@ var pokeList = [
     //     'Type 2': 'Poison',
     // },
     // {
-    //     Ndex: '#044',
-    //     pokeName: 'Gloom',
-    //     'Type 1': 'Grass',
-    //     'Type 2': 'Poison',
-    // },
+        Ndex: '#044',
+        pokeName: 'Gloom',
+        'Type 1': 'Grass',
+        'Type 2': 'Poison',
+        imgSil: 'assets/images/silhouettes/gloom.jpg',
+        imgPok: 'assets/images/pokemon/gloom.png'
+    },
     // {
     //     Ndex: '#045',
     //     pokeName: 'Vileplume',
@@ -365,12 +371,14 @@ var pokeList = [
     //     'Type 1': 'Water',
     //     'Type 2': '',
     // },
-    // {
-    //     Ndex: '#055',
-    //     pokeName: 'Golduck',
-    //     'Type 1': 'Water',
-    //     'Type 2': '',
-    // },
+    {
+        Ndex: '#055',
+        pokeName: 'Golduck',
+        'Type 1': 'Water',
+        'Type 2': '',
+        imgSil: 'assets/images/silhouettes/golduck.jpg',
+        imgPok: 'assets/images/pokemon/golduck.png'
+    },
     // {
     //     Ndex: '#056',
     //     pokeName: 'Mankey',
@@ -431,18 +439,22 @@ var pokeList = [
     //     'Type 1': 'Psychic',
     //     'Type 2': '',
     // },
-    // {
-    //     Ndex: '#065',
-    //     pokeName: 'Alakazam',
-    //     'Type 1': 'Psychic',
-    //     'Type 2': '',
-    // },
-    // {
-    //     Ndex: '#066',
-    //     pokeName: 'Machop',
-    //     'Type 1': 'Fighting',
-    //     'Type 2': '',
-    // },
+    {
+        Ndex: '#065',
+        pokeName: 'Alakazam',
+        'Type 1': 'Psychic',
+        'Type 2': '',
+        imgSil: 'assets/images/silhouettes/alakazam.jpg',
+        imgPok: 'assets/images/pokemon/alakazam.png'
+    },
+    {
+        Ndex: '#066',
+        pokeName: 'Machop',
+        'Type 1': 'Fighting',
+        'Type 2': '',
+        imgSil: 'assets/images/silhouettes/machop.jpg',
+        imgPok: 'assets/images/pokemon/machop.png'
+    },
     // {
     //     Ndex: '#067',
     //     pokeName: 'Machoke',
@@ -569,12 +581,14 @@ var pokeList = [
     //     'Type 1': 'Normal',
     //     'Type 2': 'Flying',
     // },
-    // {
-    //     Ndex: '#086',
-    //     pokeName: 'Seel',
-    //     'Type 1': 'Water',
-    //     'Type 2': '',
-    // },
+    {
+        Ndex: '#086',
+        pokeName: 'Seel',
+        'Type 1': 'Water',
+        'Type 2': '',
+        imgSil: 'assets/images/silhouettes/seel.jpg',
+        imgPok: 'assets/images/pokemon/seel.png'
+    },
     // {
     //     Ndex: '#087',
     //     pokeName: 'Dewgong',
@@ -619,12 +633,14 @@ var pokeList = [
     //     'Type 1': 'Ghost',
     //     'Type 2': 'Poison',
     // },
-    // {
-    //     Ndex: '#094',
-    //     pokeName: 'Gengar',
-    //     'Type 1': 'Ghost',
-    //     'Type 2': 'Poison',
-    // },
+    {
+        Ndex: '#094',
+        pokeName: 'Gengar',
+        'Type 1': 'Ghost',
+        'Type 2': 'Poison',
+        imgSil: 'assets/images/silhouettes/gengar.jpg',
+        imgPok: 'assets/images/pokemon/gengar.png'
+    },
     {
         Ndex: '#095',
         pokeName: 'Onix',
@@ -983,24 +999,28 @@ var pokeList = [
         imgSil: 'assets/images/silhouettes/dratini.jpg',
         imgPok: 'assets/images/pokemon/dratini.png'
     },
-    // {
-    //     Ndex: '#148',
-    //     pokeName: 'Dragonair',
-    //     'Type 1': 'Dragon',
-    //     'Type 2': '',
-    // },
-    // {
-    //     Ndex: '#149',
-    //     pokeName: 'Dragonite',
-    //     'Type 1': 'Dragon',
-    //     'Type 2': 'Flying',
-    // },
-    // {
-    //     Ndex: '#150',
-    //     pokeName: 'Mewtwo',
-    //     'Type 1': 'Psychic',
-    //     'Type 2': '',
-    // },
+    {
+        Ndex: '#148',
+        pokeName: 'Dragonair',
+        'Type 1': 'Dragon',
+        'Type 2': '',
+        imgSil: 'assets/images/silhouettes/dragonair.jpg',
+        imgPok: 'assets/images/pokemon/dragonair.png'
+    },
+    {
+        Ndex: '#149',
+        pokeName: 'Dragonite',
+        'Type 1': 'Dragon',
+        'Type 2': 'Flying',
+    },
+    {
+        Ndex: '#150',
+        pokeName: 'Mewtwo',
+        'Type 1': 'Psychic',
+        'Type 2': '',
+        imgSil: 'assets/images/silhouettes/mewtwo.jpg',
+        imgPok: 'assets/images/pokemon/mewtwo.png'
+    },
     {
         Ndex: '#151',
         pokeName: 'Mew',

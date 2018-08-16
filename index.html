@@ -10,6 +10,8 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script src="assets/javascript/pokeList.js" defer></script>
+    <script src="assets/javascript/game.js" defer></script>
 </head>
 
 
@@ -42,38 +44,33 @@
             </div>
 
             <div class="card text-center ml-2 custom_style" style="width: 49%;">
-                    <div class="card-header">
-                        <h5>What's your guess?</h5>
-                    </div>
-                    <div class="card-body">
-                <p id="poke"></p>
-                <p>Wins:
-                    <span id="wins"></span>
-                </p>
-                <p>Loses:
-                    <span id="loses"></span>
-                </p>
-                <p>Guesses Left:
-                    <span id="guessleft"></span>
-                </p>
-                <p>Your guess so far:
-                    <span id="lettersleft"></span>
-                </p>
-                <p>The answer was:
-                    <span id="results"></span>
-                </p>
-                    </div>
+                <div class="card-header">
+                    <h5>What's your guess?</h5>
                 </div>
+                <div class="card-body">
+                    <p id="poke"></p>
+                    <p>Wins:
+                        <span id="wins"></span>
+                    </p>
+                    <p>Loses:
+                        <span id="loses"></span>
+                    </p>
+                    <p>Guesses Left:
+                        <span id="guessleft"></span>
+                    </p>
+                    <p>Your guess so far:
+                        <span id="lettersleft"></span>
+                    </p>
+                    <p>The answer was:
+                        <span id="results"></span>
+                    </p>
+                </div>
+            </div>
 
         </div>
 
     </div>
 
 </body>
-
-<!--I had to put link on the bottom show my <p id="poke"> can work-->
-<script src="assets/javascript/pokeList.js"></script>
-<!--I had to put link on the bottom show my <p id="poke"> can work-->
-<script src="assets/javascript/game.js"></script>
 
 </html>
