@@ -1012,6 +1012,8 @@ var pokeList = [
         pokeName: 'Dragonite',
         'Type 1': 'Dragon',
         'Type 2': 'Flying',
+        imgSil: 'assets/images/silhouettes/dragonite.jpg',
+        imgPok: 'assets/images/pokemon/dragonite.png'
     },
     {
         Ndex: '#150',
